@@ -39,6 +39,7 @@ body {
     justify-content:space-between;
     align-items: center;
     padding-top: 30px;
+    position: relative;
 }
 
 .nav-list {
@@ -52,12 +53,80 @@ body {
     margin-left: 15px;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: rgba(43, 53, 65, 1);
+}
+
 .nav-item:first-child,
 .nav-item:last-child {
     margin-right: 0px;
     margin-left: 0px;
 }
 
+.social {
+    position: absolute;
+    right: -300px;
+}
+
 .social img {
     margin-left: 30px;
+}
+
+.training {
+    position: relative;
+}
+
+.training-image {
+    position: absolute;
+    width: 996px;
+    height: 850px;
+    top: 0;
+    right: -190px;
+    z-index: 1;
+}
+
+.training-content {
+    max-width: 676px;
+    position:absolute;
+    z-index: 2;
+}
+
+.training {
+    padding-top: 255px;
+}
+
+.training-title {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: rgba(43, 53, 65, 1);
+    text-transform: uppercase;
+}
+
+.training-content span {
+    color: rgba(43, 53, 65, 1);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+}
+
+.training-description {
+    color: rgba(43, 53, 65, 1);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.training-btn {
+    color: rgba(43, 53, 65, 1);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(251, 241, 56, 1);
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
 }
